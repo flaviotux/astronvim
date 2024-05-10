@@ -9,7 +9,11 @@ local M = {
     mappings = {
       n = {
         ["<Leader>ff"] = {
-          function() require("telescope.builtin").find_files { hidden = true, glob_pattern = "!**/.git/*" } end,
+          function()
+            require("telescope.builtin").find_files {
+              find_command = { "rg", "--files", "--hidden", "--glob", "!**/.git/*" },
+            }
+          end,
           desc = "Find files",
         },
 
