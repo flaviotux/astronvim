@@ -31,7 +31,6 @@ local M = {
 
         ["<Leader>b"] = { desc = "Buffers" },
       },
-      t = {},
     },
   },
 }
