@@ -10,7 +10,6 @@ local M = {
   { import = "astrocommunity.pack.yaml" },
   { import = "astrocommunity.pack.tailwindcss" },
   { import = "astrocommunity.pack.html-css" },
-  { import = "astrocommunity.colorscheme.catppuccin" },
 }
 
 return M

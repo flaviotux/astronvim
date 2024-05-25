@@ -4,7 +4,7 @@ local M = {
   ---@type AstroCoreOpts
   opts = {
     features = {
-      notifications = false,
+      notifications = true,
     },
     mappings = {
       n = {
