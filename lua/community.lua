@@ -2,7 +2,6 @@
 local M = {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.pack.lua" },
-  { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.go" },
   { import = "astrocommunity.pack.templ" },
