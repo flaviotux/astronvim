@@ -28,6 +28,11 @@ return {
         which_key = true,
         window_picker = true,
       },
+      custom_highlights = function(C)
+        return {
+          TabLineFill = { bg = C.mantle, fg = C.none },
+        }
+      end,
     },
   },
   {
