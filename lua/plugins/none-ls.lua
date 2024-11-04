@@ -17,7 +17,9 @@ return {
       null_ls.builtins.formatting.stylua,
       null_ls.builtins.formatting.gofumpt,
       null_ls.builtins.formatting.golines,
-      null_ls.builtins.formatting.goimports_reviser,
+      null_ls.builtins.formatting.goimports_reviser.with {
+        filetypes = { "go", "templ" },
+      },
     }
     return config -- return final config table
   end,

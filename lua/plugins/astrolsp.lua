@@ -20,7 +20,7 @@ local M = {
       },
       ---@diagnostic disable-next-line: missing-fields
       tailwindcss = {
-        filetypes = { "templ", "astro", "javascript", "typescript", "react" },
+        filetypes = { "templ", "astro", "javascript", "typescript", "react", "typescriptreact" },
         init_options = { userLanguages = { templ = "html" } },
       },
     },
